@@ -2,11 +2,6 @@
 
 Este proyecto es un servidor que gestiona un sistema de libros, ofreciendo endpoints para operaciones CRUD sobre libros y sus reseñas.
 
-## Requisitos
-
-- **Node.js** (v16 o superior)
-- **PostgreSQL** (v13 o superior)
-
 ## Instalación
 
 1. **Clona el repositorio**:
