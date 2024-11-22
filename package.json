@@ -1,0 +1,25 @@
+{
+  "name": "book-system-server",
+  "version": "1.0.0",
+  "description": "Book System Server",
+  "type": "module",
+  "author": "Angie",
+  "license": "ISC",
+  "scripts": {
+    "start": "set NODE_ENV=development&& node --watch ./server/server.js",
+    "init-db": "node ./db/db-init.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dependencies": "^0.0.1",
+    "dotenv-flow": "^4.1.0",
+    "express": "^4.21.1",
+    "jsonwebtoken": "^9.0.2",
+    "passport-custom": "^1.1.1",
+    "passport-jwt": "^4.0.1",
+    "sqlite3": "^5.1.7"
+  },
+  "devDependencies": {
+    "eslint": "^8.53.0"
+  }
+}
